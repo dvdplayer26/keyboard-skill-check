@@ -1,6 +1,6 @@
 import random
 import time
-wordList = ["apple", "banana", "carrot"]
+wordList = ["apple", "banana", "carrot", "durian", "eggplant", "fruit", ]
 word = random.choice(wordList)
 
 def Error1():
@@ -18,10 +18,10 @@ def wordType():
             print ("Wrong!")
             isWrong = True
     time.sleep(2)
-    print("Ending sesion...")
+    print("Ending session...")
 
 def keyboardSkill():
-    print("Welcome user. This is a keyboard skill check. \nSelect what you would like to do. \na) Word typing practice \nb) Sentence type practice \n c)Paragraph type practice")
+    print("Welcome user. This is a keyboard skill check. \nSelect what you would like to do. \na) Word typing practice \nb) Sentence type practice \nc) Paragraph type practice")
     menu_choice = input()
     if menu_choice == "a":
         wordType()
